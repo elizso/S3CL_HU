@@ -1,0 +1,136 @@
+body {
+    background-image: url("../image/background.jpg");
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-attachment:fixed;
+}
+h1{
+    font-family:Arial, sans-serif;
+    color:white;
+}
+p {
+    font-family:Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    color:black;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+}
+
+.header{
+
+    width: 100%;
+    color: white;
+    overflow: auto;
+
+}
+.belowheader{
+	background-color: white;
+	height: 5px;
+	width: 15%;
+}
+.rightTopCorner{
+    float: right;
+    right: 15px;
+
+
+    
+}
+.leftTopCorner{
+    float: left;
+
+}
+div{
+    display: block;
+}
+.underTitle{
+	background-color: black;
+	height: 5px;
+	width: 80%;
+}
+.main{
+	background-color: rgba(227, 227, 227, 0.4);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* color scheme 
+sky - #87CEEB
+carbon - #9E9999
+watermelon - #F55E61
+neutral - #E8E8E8 
+white - #fbfdfc, rgb(251, 253, 252)
+*/
+

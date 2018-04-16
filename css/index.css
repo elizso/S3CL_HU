@@ -1,0 +1,30 @@
+.definition{
+
+    width: 100%;
+    margin: 0px;
+	
+
+}
+.definition p{
+    color: black;
+}
+.introduction{
+
+}
+.introduction p{
+    color: black;
+}
+.main{
+	background-color:rgba(227, 227, 227, 0.4) ;
+}
+
+
+
+
+/* color scheme 
+sky - #87CEEB
+carbon - #9E9999
+watermelon - #F55E61
+neutral - #E8E8E8 
+white - #fbfdfc, rgb(251, 253, 252)
+*/

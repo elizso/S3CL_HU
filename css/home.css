@@ -1,0 +1,78 @@
+.title{
+	text-align: center;
+	font-size: 50px;
+	
+}
+.mid{
+	height: 500px;
+	background-image: url("../image/background1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	overflow: hidden;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.pages{
+	width: 50%;
+	float: left;
+	height: 400px;
+	text-align: center;
+}
+a:hover{
+	text-decoration: none !important;
+	color: #e3e3e3 !important;
+}
+.bgInfo{
+	background-image: url("../image/HKSG.jpg");
+	background-attachment:fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	
+}
+.HK{
+	background-image: url("../image/HK.jpg");
+	background-attachment:fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	
+}
+.SG{
+	background-image: url("../image/SG.jpg");
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+.intro{
+	background-image: url("../image/SG1.jpg");
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+.ebl{
+	background-image: url("../image/HK1.jpg");
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+.analysis{
+	background-image: url("../image/HK2.jpg");
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	
+}
+.conclusion{
+	background-image: url("../image/SG2.jpg");
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	
+}
+
